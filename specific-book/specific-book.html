@@ -6,13 +6,35 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <script src="index.js"></script>
         <div class="headers">
             <header>
                 <p class="headinfo"><b>JS-BrandStore/Karyachok.</b>
                 <br>
                 <button>Sign-out</button> Test User</p>
             </header>
-
         </div>
+        <div class="main-content">
+            <br>
+            <img src="/img/cover.png" alt="cover" width="15%">
+            <br>
+            <b>Book name:</b> <span>Eloquent Javascript</span>
+            <br>
+            <b>Book author:</b> <span>Marjin Haverbeke</span>
+            <br>
+            <b>Book level:</b> <span>Beginner</span>
+            <br>
+            <b>Book tags:</b> <span>core</span>
+        </div>
+        <br>
+        <div class="product-container">
+            Book
+            <div>$ <span class="price">13</span></div>
+            <button onclick="addToCart()">Add to cart</button>
+        </div>
+        <div class="cart-container">
+            Your cart total: $ <span id="total">0</span>
+        </div>
+        <p><b>Description:</b> A book providing an introduction to the Javascript language and programiring in general</p>
     </body>
 </html>
