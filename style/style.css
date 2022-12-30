@@ -1,0 +1,18 @@
+.headinfo {
+    border: 3px solid #000000;
+    padding: 2px;
+    font-size: 25px;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    position: relative;
+}
+
+.labell {
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+}
